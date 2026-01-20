@@ -110,7 +110,7 @@ resource "aws_instance" "server" {
 #   provisioner "remote-exec" {
 #     inline = [
 #       "touch /home/ubuntu/file200",
-#       "echo 'hello from veera' >> /home/ubuntu/file200"
+#       "echo 'hello from veera nareshit' >> /home/ubuntu/file200"
 #     ]
 #   }
 #    provisioner "local-exec" {
@@ -127,7 +127,7 @@ resource "null_resource" "run_script" {
     }
 
     inline = [
-      "echo 'hello from veeranarni' >> /home/ubuntu/file200"
+      "echo 'hello from veeranar' >> /home/ubuntu/file200"
     ]
   }
 
