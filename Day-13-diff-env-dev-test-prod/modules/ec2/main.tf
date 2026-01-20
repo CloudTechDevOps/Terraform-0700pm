@@ -7,3 +7,5 @@ resource "aws_instance" "app" {
     Name = "${var.env}-ec2"
   }
 }
+
+# In the above code use ec2 module instead of resource block
